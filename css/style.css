@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+body{
+	background:url(b.jpg);/* setitng background image for body*/
+	background-repeat: no-repeat; /* it doesn't let image to repeat*/
+	background-size:cover;/*covers whole body*/
+	font-size: 15px;
+}
+.bimg{
+	background-image: url(c.jpg);
+}
+header{
+	background-color:rgba(0,0,0,0.1);
+	text-align: center;
+	padding: 1px 2px 1px 2px;
+	box-shadow: 2px 2px gray;/*gives shadow to the box*/
+	font-size: 15px;
+	font-family:cursive;
+	border-radius: 4px;/*gives curve shape to the borders*/
+	width: 100%;
+}
+nav{
+	width: 100%;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	flex-direction: row;/*sets the direction*/
+	display: flex;/*sets flexible length on flexible item*/
+}
+nav ul li{
+	list-style: none;
+	padding: 1% 2% 1% 2%;
+	float: left;
+}
+nav ul li a{
+	display: block;/*displays the element as block*/
+	color: black;/*determine the color of text*/
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	float: left;
+	border-radius: 5px 5px 5px 5px;
+}
+nav ul li :hover{
+	background-color:#999999;/*change color while hovering*/
+	color:black;
+}
+.box{
+	width: 380px;
+	height: 290px;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-left: 50px;
+	margin-top: 45px;
+	font-family: 'Century Gothic',sans-serif;
+	box-shadow: 2px 2px 2px 2px gray;
+	border-radius: 5px 5px 5px 5px;
+}
+.box-img{
+	border-radius: 50%;
+	width: 180px;
+	height: 150px;
+	box-shadow: 2px 2px 2px 2px gray;
+	transition: transform 2s;/*sets the time for transiton property*/
+}
+.box .box-img:hover{
+	transform: rotateY(180deg);/*applies transformation of image*/
+}
+
+.box h1{
+	font-size: 30px;
+	letter-spacing: 2px;/*allows space between letters*/
+	font-weight: 100
+}
+.box h3{
+	font-size: 20px;
+	letter-spacing: normal;
+	font-weight: 100;
+}
+.box p{
+	text-align: center;
+	color: blue;
+	font-family: fantasy;
+}
+.topic{
+	margin-top: 2px;
+	margin-left: 2px;
+	padding: 1px;
+	text-align: center;
+}
+.conimg{
+	background-image: url(des.jpg);
+}
+.wrapup{
+	width: 390px;
+	height: 350px;
+	padding: 2px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size:17px;
+
+}
+.maps{
+	margin-right: 20%;
+	margin-top: 5%;
+	border-radius: 5px;
+}
+form{
+	text-align: center;
+	padding: 2px;
+	margin: auto;
+}
+input{
+	padding: 5px;
+	border:1px;
+	border-radius: 4px 4px 4px 4px;
+}
+textarea{
+	padding: 5px;
+	border:1px;
+	border-radius: 4px;
+}
+legend{
+	font-family: cursive;
+}
+.btn{
+	padding: 2px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+fieldset{
+	margin-top: 4px;
+	padding: 5px;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;/*items are placed with space between the lines*/
+}
+.fa{
+	padding: 20px;
+	width: 60px;
+	height: 60px;
+	justify-content: space-between;
+	text-align:center;
+	margin: 20px 20px;
+	border-radius: 50%;
+	transition: transform 2s;
+	padding-top: 40px;
+}
+.fa:hover{
+	opacity: 0.4;
+	transform: rotateY(180deg);
+}
+.fa-facebook{
+	font-size: 10px;
+	background:#3333ff;
+	color: white;
+	margin: 20px;
+}
+.fa-twitter{
+	background:#4fabc9;/*the hex code for background*/
+	color: white;
+	margin: 20px;
+}
+.fa-instagram{
+	background:#ff1a40;
+	color:white;
+	margin: 20px;
+}
+.fa-google{
+	background:#dd4b39;
+	color: white;
+	margin: 20px;
+}
+.fa-linkedin{
+	background:#007bb5;
+	color: white;
+	margin: 20px;
+}
+.fa-youtube{
+	background-color: red;
+	margin: 20px;
+	color: white;
+}
+.social{
+	margin-left: 100px;
+	margin-top: 60px;
+	margin-top: 80px;
+	justify-content: space-between;
+}
+.about{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	width: 100%;
+	height: 330px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 8px;
+	padding-right: 10px;
+}
+.image{
+	border-radius: 15px;
+	margin-left: 30px;
+	margin-top: 30px;
+	height: 260px;
+	width: 260px;
+}
+.knowme{
+	padding-left: 100px;
+	width: 100%;
+	height: 270px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 15px;
+	margin:20px;
+	margin-left: 340px;
+	margin-bottom: 5px;
+	padding: 5px;
+	/*font-size:normal;*/
+	color: blue;
+	margin-right: 90px;
+}
+.pknow{
+	font-family:fantasy;
+	color: rgb(0,0,0);
+	padding: 10px;
+	text-decoration-style: solid;
+	letter-spacing: 0px;
+	word-spacing: 1.1px;
+}
+
+.mycv{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+}
+.perinfo{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.2);
+	padding-top: 50px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	border-radius: 9px;
+	font-family:all;
+	word-spacing: 1px;/*determines space between words*/
+	font-size: 18px;
+}
+.exp{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.2);
+	padding-top: 50px;
+	padding-left: 30px;
+	margin-left: 50px;
+	border-radius: 9px;
+	margin-right: 30px;
+	font-family: normal;
+	word-spacing: 1px;
+	font-size: 18px;
+}
+.quali{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.2);
+	margin-left: 40px;
+	padding-top: 50px;
+	text-align: center;
+	border-radius: 9px;
+	font-family: normal;
+	word-spacing: 1px;
+	font-size: 18px;
+}
+.quali table,tr,td,th{
+	padding: 5px;
+}
+footer{
+	background:rgba(0,0,0,0.1);
+	position: fixed;/*determines the place*/
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	padding: 7px;
+	color: black;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px 3px gray;
+}
+@media screen and (max-width: 600px){
+	nav ul{
+	display: flex;
+	flex-direction: column;
+}
+	
+	.about{
+		flex-direction: column;
+	}
+	.knowme{
+		margin-top: 50px;
+		margin-right: 650px;
+	}
+	.mycv{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	section{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.maps{
+		margin-left: 5%;
+	}
+	footer{
+		height: auto;
+	}
+		
+		
+	}
+
+}
